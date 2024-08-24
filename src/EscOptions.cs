@@ -296,7 +296,7 @@ namespace TheEscort
 
         private string SetDefault(string def, string norm = "")
         {
-            string text = " (" + Translate("Default") + "=<DEF>" + (norm != ""? (", " + Translate("Vanilla") + "=<NORM>" + ")") : ")");
+            string text = Translate(" (") + Translate("Default") + Translate("=<DEF>") + (norm != ""? (Translate(", ") + Translate("Vanilla") + Translate("=<NORM>") + Translate(")")) : Translate(")"));
             text = text.Replace("<DEF>", def);
             if (norm != "") text = text.Replace("<NORM>", norm);
             return text;
@@ -425,13 +425,13 @@ namespace TheEscort
             this.buildDragger.OnValueChanged += SelectABuild;
             this.buildSelect = new OpComboBox(buildSelectHelper, new Vector2(xo + (xp * 1), yo - (yp * 14)), 100, buildItems)
             {
-                description = Swapper(Translate("escoptions_buildeasy_desc"), "Player")
+                description = Swapper(Translate("escoptions_buildeasy_desc"), Translate("Player"))
             };
             this.buildSelect.OnValueChanged += ChangeTheBuild;
             this.easySelect = new OpCheckBox(easySelectHelper, new Vector2(xo + (xp * 4), yo - (yp * 14)))
             {
                 colorEdge = easyColor,
-                description = Swapper(Translate("escoptions_buildeasy_desc"), "Player")
+                description = Swapper(Translate("escoptions_buildeasy_desc"), Translate("Player"))
             };
             this.easySelect.OnValueChanged += ChangeTheEasy;
             this.buildManyCats = new OpLabel(xo + (xp * 0), yo - (yp * 13), Translate("escoptions_moreplayerbuilds_text"));

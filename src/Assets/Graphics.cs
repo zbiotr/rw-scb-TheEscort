@@ -561,7 +561,7 @@ namespace TheEscort
                         _ => selectionable[ins.config.cfgBuildP4.Value]
                     },
                     */
-                    description = "Change Escort's Build, which affects how they play significantly! You can also set these values in the Remix Settings!",
+                    description = rainWorld.inGameTranslator.Translate("Change Escort's Build, which affects how they play significantly! You can also set these values in the Remix Settings!"),
                     greyedOut = i >= menu.manager.rainWorld.options.JollyPlayerCount
 
                 };
@@ -570,7 +570,7 @@ namespace TheEscort
                     vector2 + new Vector2(105.5f, 0f), new Vector2(30f, 30f)
                 )
                 {
-                    text = ins.config.cfgEasy[i].Value? "X" : "",
+                    text = ins.config.cfgEasy[i].Value? rainWorld.inGameTranslator.Translate("X") : "",
                     /*
                     text = i switch
                     {
@@ -580,7 +580,7 @@ namespace TheEscort
                         _ => ins.config.cfgEasyP4.Value ? "X" : ""
                     },
                     */
-                    description = "Easier Mode: While midair and moving, press Jump + Grab to do a dropkick!",
+                    description = rainWorld.inGameTranslator.Translate("Easier Mode: While midair and moving, press Jump + Grab to do a dropkick!"),
                     colorEdge = ins.config.easyColor,
                     greyedOut = i >= menu.manager.rainWorld.options.JollyPlayerCount
                 };
