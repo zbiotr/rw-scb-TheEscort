@@ -7,6 +7,8 @@ Y'all are free to adapt the code for your own usage as long as the original auth
 Development starts here. Goal? To have a complete enough slugcat that can be used in Arena and other campaigns.
 
 * ### 0.3 - Ending I
+  * **(0.3.3)** Removed Socks from game (playabilitywise), Railgunner and Gilded's overcharge and power limits have been fixed, rollkick height boost, vertical poletech buff, CW dialogue support, new Escort challenge, new thumbnail
+
   * **(0.3.2.1)** Fixed speedster's ability not turning off and fixed ability time reduction calculation
 
   * **(0.3.2)** Undo QoL patch for no goddamn reason
@@ -298,7 +300,7 @@ Development starts here. Goal? To have a complete enough slugcat that can be use
 
   * **(0.1.9)** Revivify patches!... sorta kinda. Also fixed potential crashes... Also split the tabs and added a new feature called: Builds! And also also, made parryslides a bit more consistent (so stunslides don't make parryslides not work and it works much better on lizards)... and also you can parry jellyfishes properly now.
 
-  * **(0.1.8.0)** aPrIl FoOlS!
+  * **(0.1.8.0)** aPrIl FoOlS! (Made Escort a slugpup and added new sfx that only play on session/cycle starts)
 
   * **(0.1.8)** Escort headbutt. This will be the last feature added before preparation of the code cleanup. Oh one last thing, switched trampoline to requiring you to flip instead of just jumping on stuff to prevent accidental activations (and more physics accurate since it'll seem like they're pushing themselves off a creature.) Another change is that you can trampoline on dead lizards now! HUZZAH! (Elevator behaviour is unchanged.)
 
