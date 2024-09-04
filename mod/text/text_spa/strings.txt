@@ -62,15 +62,16 @@ Builds|Estilos
 Gimmicks|Chucherías
 Accessibility|Accesibilidad
 Options|Opciones
+Challenges|Desafíos
 escoptions_options|Estas opciones cambian las habilidades principales y la jugabilidad del Escolta.<LINE>Puedes encontrar el modo fácil y los estilos en ESTILOS, y travesuras adicionales en CHUCHERÍAS. (Glosario técnico: «true» significa activado y «false» desactivado.)
 escoptions_meanlizards_text|Activar lagartos (extra) agresivos
 escoptions_meanlizards_desc|Los lagartos aparecerán con la agresión al tope al jugar con el Escolta (y se dirigirán a él al verlo)... puede que esto no suceda en sesiones cooperativas.
 escoptions_vengefullizards_text|Activar lagartos vengativos
 [Beta]| [Beta]
 escoptions_vengefullizards_desc|Los lagartos, tras matar demasiados de ellos, puede que empiecen a buscar al Escolta.
-escoptions_carry_text|Multiplicador de la fuerza de levantamiento
+escoptions_carry_text|Multiplicador de fuerza de levantamiento
 escoptions_carry_desc|Determina cuán pesado (x veces el peso del Escolta) puede llevar el Escolta un objeto antes de ser cargado.
-escoptions_dropkick_text|Multiplicador del empuje de la patada voladora
+escoptions_dropkick_text|Multiplicador de empuje de la patada voladora
 escoptions_dropkick_desc|Cuánto empuje causa la patada voladora del Escolta. Ten en cuenta que esto solo afecta a criaturas que no sean resilientes a los empujes.
 escoptions_hype_text|Mecánica de Hipercombate
 escoptions_longwall_text|Salto largo de pared
@@ -123,10 +124,14 @@ escoptions_oldescape_text|Mecánicas antiguas del <ESCAPIST>
 escoptions_oldescape_desc|Remontarse al <ESCAPIST> original, que simplemente puede salirse de las capturas.
 Speedster Gear Limit|Límite de marchas del Velocista
 Sets the gear limit for the Speedster build. Handle with care!|Establece el límite de marchas para el estilo Velocista. ¡Cámbialo con cuidado!
+Railgunner Overcharge Limit|Límite de sobrecarga del Artillero
+Sets the overcharge limit for the Railgunner build.|Establece el límite de sobrecarga para el estilo Artillero.
+Gilded Max Power|Poder máximo del Dorado
+Sets the maximum power capacity for the Gilded build.|Establece la capacidad de poder máxima para el estilo Dorado.
 escoptions_accessibility|Cambia de qué manera se muestran algunos efectos visuales para que sea más fácil entender lo que está pasando.
 escoptions_hypeindicator_text|Indicador de hipercombate más marcado
 escoptions_hypeindicator_desc|Añade un efecto visual que muestra con más claridad si el Escolta tiene el estado de hipercombate o no.
-escoptions_deflaltvfx_text|Efecto visual de fortalecimiento diferente para el <DEFLECTOR>
+escoptions_deflaltvfx_text|Efecto visual diferente de fortalecimiento para el <DEFLECTOR>
 escoptions_deflaltvfx_desc|Cambia el efecto visual de fortalecimiento para el Escolta <DEFLECTOR>, de chispas a círculos pulsantes.
 escoptions_devlog_text|Registros de desarrollador
 escoptions_devlog_desc|Controla qué se permite enviar a los registros. -1 desactiva todos los registros de desarrollador del Escolta.
@@ -134,9 +139,11 @@ escoptions_hudloc_text|Disposición del HUD del Escolta
 escoptions_hudloc_desc|Cambiar dónde se sitúa el HUD (solo aplica al HUD predeterminado).
 escoptions_hudshow_text|Visibilidad del HUD del Escolta
 escoptions_hudshow_desc|Cambiar cómo y cuándo se muestra el HUD.
+[{ch03}{ch03a}{ch03b}] Merchants Must Pay!|[{ch03}{ch03a}{ch03b}] ¡Los mercaderes deben pagar!
+Here's where your trophies go!|¡Aquí es donde van tus trofeos!
 escoptions_insult_a|No eres mi mamá.
 escoptions_insult_b|Vete al ca#@$%o.
-escoptions_insult_c|Bobo.
+escoptions_insult_c|Skill issue.
 escoptions_insult_d|Me da igual.
 escoptions_insult_e|Cierra el hocico.
 escoptions_sectret_spuphaiku|     ...su fin no fue...     <LINE> ...mas la cría se fuga... <LINE>  ...cuídate, ¿okey?...   
@@ -145,6 +152,7 @@ escoptions_sectret_subgild|un lugar especial
 escoptions_sectret_invincible|Invencible... pero no realmente. Solo no recibirás daño xd.
 escoptions_sectret_magic|No te quejes cuando tu traspaso de pared salga mal.
 Congrats! You have the access code (that you definitely got from the developer) and can now test the lastest upcoming build!|¡Felicitaciones! ¡Tienes el código de acceso (que definitivamente lo obtuviste del desarrollador) y ahora puedes probar el último estilo a estrenarse!
+The world is full of vermin. A tragedy shall occur in the stock market. Fight the law.<LINE><LINE>- Play as Railgunner<LINE>-Max charges set to 10<LINE>-Scavenger reputation is locked at -1<LINE><LINE>WIN CONDITION: Kill the merchant in Shaded Citadel, Garbage Wastes, Sky Islands, and Subterranean<LINE>BONUS 1: Kill 150 Normal Scavengers<LINE>BONUS 2: Kill 20 Elite Scavengers|El mundo está lleno de sabandijas. Una tragedia ocurrirá en el mercado de valores. Lucha contra la ley.<LINE><LINE>- Juega con el Artillero<LINE>-Cargas máximas establecidas al 10<LINE>-Reputación con los carroñeros bloqueada al -1<LINE><LINE>CONDICIÓN DE VICTORIA: Mata al mercader en Ciudadela Ensombrecida, Páramos de Residuos, Islas Celestiales y Subterráneo<LINE>EXTRA 1: Mata a 150 carroñeros normales<LINE>EXTRA 2: Mata a 20 carroñeros de élite
 ... what now?|... ¿ahora qué?
 OUT!|¡FUERA!
 Fucking.|Mierda.
@@ -181,8 +189,16 @@ There is not much I can do, and I urge you to move on, before my structure fails
 I would not mind some company, however I urge you to move along. I do not want you to be caught in the collapse of my structure.|No me molestaría algo de compañía, pero te insto a que sigas adelante.<LINE>No quiero que te veas atrapado en el colapso de mi estructura.
 flippounce_tutorial|Mantén pulsada una dirección diagonal contra la pared y luego pulsa saltar para hacer una ¡súper voltereta de pared!
 Change Escort's Build, which affects how they play significantly! You can also set these values in the Remix Settings!|¡Cambia el estilo del Escolta, los cuales afectan significativamente su forma de jugar! ¡Puedes configurar estos valores en los ajustes de Remix!
-X|X
 Easier Mode: While midair and moving, press Jump + Grab to do a dropkick!|Modo fácil: ¡Mientras te mueves en el aire, pulsa Saltar + Agarrar para hacer una patada voladora!
 At the cost of a karma flower, the slugpup respawns!|¡A costa de una flor de karma, la cría reaparece!
 Bringing a karma flower into the shelter while already reinforced will consume the karma flower instead!|¡Traer una flor de karma al refugio mientras ya estás reforzado hará que esa sea consumida en su lugar!
+Garbage Wastes Merchant Downed!|¡Mercader de Páramos de Residuos derrotado!
+{sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft}/4 to go!|¡Faltan {sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft}/4!
+Shaded Citadel Merchant Downed!|¡Mercader de Ciudadela Ensombrecida derrotado!
+Sky Islands Merchant Downed!|¡Mercader de Islas Celestiales derrotado!
+Subterranian Merchant Downed!|¡Mercader de Subterráneo derrotado!
+20 Elite Scavengers Felled!|¡20 carroñeros de élite abatidos!
+Wow! You did it!|¡Guau! ¡Lo hiciste!
+150 Scavengers Felled!|¡150 carroñeros abatidos!
+Yippee!!!|¡¡¡Yupi!!!
 gilded_tut_guardian|¡El <GILDED> solo tiene que matar al guardián una vez para pasar!

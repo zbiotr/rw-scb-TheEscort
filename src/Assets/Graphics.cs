@@ -610,7 +610,7 @@ namespace TheEscort
                     vector2 + new Vector2(105.5f, 0f), new Vector2(30f, 30f)
                 )
                 {
-                    text = ins.config.cfgEasy[i].Value? rainWorld.inGameTranslator.Translate("X") : "",
+                    text = ins.config.cfgEasy[i].Value? "X" : "",
                     /*
                     text = i switch
                     {

@@ -1,0 +1,20 @@
+SPECIAL : LOCKPATHS
+SPECIAL : GRAV
+WAIT : 5
+¿Una segunda visita?
+Nunca había visto a los de tu especie antes, ¡y ahora me encuentro con dos seguidas!
+¿Vienes del mismo sitio? Déjame ver...
+...
+¡Oh, mi software de análisis de está volviendo loco! No logro entender estos datos. ¿Son estos rastros... del fluido vacío?
+¿De dónde podrías provenir? También pareces como un organismo propuesto, pero eres muy diferente.
+¿Alguno de mis vecinos te otorgó el don de la comunicación? Este es un privilegio inesperado para una forma de vida como tú.
+Me temo que tengo asuntos urgentes que atender, pero siéntete como en casa.
+Esto debería ayudarte para tu viaje.
+SPECIAL : FOODMAX
+¡Ojalá tuviera más tiempo para estudiarte!
+WAIT : 5
+Puedes salir de mi estructura usando el conducto de acceso a la izquierda cuando estés listo.
+Ahora reanudaré mi trabajo, necesito ponerme en contacto con alguien.
+Buena suerte, pequeño.
+SPECIAL : PARTIALGRAV
+SPECIAL : UNLOCKPATHS
