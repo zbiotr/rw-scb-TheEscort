@@ -5,6 +5,7 @@ using UnityEngine;
 using static SlugBase.Features.FeatureTypes;
 using static TheEscort.Eshelp;
 using static TheEscort.Plugin;
+using static RWCustom.Custom;
 
 
 namespace TheEscort;
@@ -48,8 +49,8 @@ public static class SChallengeMachine
                         sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft--;
                         sgs.saveState.miscWorldSaveData.Esave().ESC03_GW = true;
                         timeFadeIn = 40;
-                        missionComplete.text = "Garbage Wastes Merchant Downed!";
-                        missionCompleteSub.text = $"{sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft}/4 to go!";
+                        missionComplete.text = rainWorld.inGameTranslator.Translate("Garbage Wastes Merchant Downed!");
+                        missionCompleteSub.text = $"{sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft}" + rainWorld.inGameTranslator.Translate("/4 to go!");
                         Ebug("GW Complete!");
                         break;
                     case "SH":
@@ -57,8 +58,8 @@ public static class SChallengeMachine
                         sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft--;
                         sgs.saveState.miscWorldSaveData.Esave().ESC03_SH = true;
                         timeFadeIn = 40;
-                        missionComplete.text = "Shaded Citadel Merchant Downed!";
-                        missionCompleteSub.text = $"{sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft}/4 to go!";
+                        missionComplete.text = rainWorld.inGameTranslator.Translate("Shaded Citadel Merchant Downed!");
+                        missionCompleteSub.text = $"{sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft}" + rainWorld.inGameTranslator.Translate("/4 to go!");
                         Ebug("SH Complete!");
                         break;
                     case "SI":
@@ -66,8 +67,8 @@ public static class SChallengeMachine
                         sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft--;
                         sgs.saveState.miscWorldSaveData.Esave().ESC03_SI = true;
                         timeFadeIn = 40;
-                        missionComplete.text = "Sky Islands Merchant Downed!";
-                        missionCompleteSub.text = $"{sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft}/4 to go!";
+                        missionComplete.text = rainWorld.inGameTranslator.Translate("Sky Islands Merchant Downed!");
+                        missionCompleteSub.text = $"{sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft}" + rainWorld.inGameTranslator.Translate("/4 to go!");
                         Ebug("SI Complete!");
                         break;
                     case "SB":
@@ -75,8 +76,8 @@ public static class SChallengeMachine
                         sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft--;
                         sgs.saveState.miscWorldSaveData.Esave().ESC03_SB = true;
                         timeFadeIn = 40;
-                        missionComplete.text = "Subterranian Merchant Downed!";
-                        missionCompleteSub.text = $"{sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft}/4 to go!";
+                        missionComplete.text = rainWorld.inGameTranslator.Translate("Subterranian Merchant Downed!");
+                        missionCompleteSub.text = $"{sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft}" + rainWorld.inGameTranslator.Translate("/4 to go!");
                         Ebug("SB Complete");
                         break;
                 }
@@ -86,15 +87,15 @@ public static class SChallengeMachine
                 if (sgs.saveState.miscWorldSaveData.Esave().ESC03_EScaKills >= 20 && !sgs.saveState.miscWorldSaveData.Esave().ESC03_EScaWin)
                 {
                     timeFadeIn = 40;
-                    missionComplete.text = "20 Elite Scavengers Felled!";
-                    missionCompleteSub.text = "Wow! You did it!";
+                    missionComplete.text = rainWorld.inGameTranslator.Translate("20 Elite Scavengers Felled!");
+                    missionCompleteSub.text = rainWorld.inGameTranslator.Translate("Wow! You did it!");
                     sgs.saveState.miscWorldSaveData.Esave().ESC03_EScaWin = true;
                 }
                 if (sgs.saveState.miscWorldSaveData.Esave().ESC03_ScavKills >= 150 && !sgs.saveState.miscWorldSaveData.Esave().ESC03_ScavWin)
                 {
                     timeFadeIn = 40;
-                    missionComplete.text = "150 Scavengers Felled!";
-                    missionCompleteSub.text = "Yippee!!!";
+                    missionComplete.text = rainWorld.inGameTranslator.Translate("150 Scavengers Felled!");
+                    missionCompleteSub.text = rainWorld.inGameTranslator.Translate("Yippee!!!");
                     sgs.saveState.miscWorldSaveData.Esave().ESC03_ScavWin = true;
                 }
             }

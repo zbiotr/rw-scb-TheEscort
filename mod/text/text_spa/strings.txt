@@ -152,7 +152,7 @@ escoptions_sectret_subgild|un lugar especial
 escoptions_sectret_invincible|Invencible... pero no realmente. Solo no recibirás daño xd.
 escoptions_sectret_magic|No te quejes cuando tu traspaso de pared salga mal.
 Congrats! You have the access code (that you definitely got from the developer) and can now test the lastest upcoming build!|¡Felicitaciones! ¡Tienes el código de acceso (que definitivamente lo obtuviste del desarrollador) y ahora puedes probar el último estilo a estrenarse!
-The world is full of vermin. A tragedy shall occur in the stock market. Fight the law.<LINE><LINE>- Play as Railgunner<LINE>-Max charges set to 10<LINE>-Scavenger reputation is locked at -1<LINE><LINE>WIN CONDITION: Kill the merchant in Shaded Citadel, Garbage Wastes, Sky Islands, and Subterranean<LINE>BONUS 1: Kill 150 Normal Scavengers<LINE>BONUS 2: Kill 20 Elite Scavengers|El mundo está lleno de sabandijas. Una tragedia ocurrirá en el mercado de valores. Lucha contra la ley.<LINE><LINE>- Juega con el Artillero<LINE>-Cargas máximas establecidas al 10<LINE>-Reputación con los carroñeros bloqueada al -1<LINE><LINE>CONDICIÓN DE VICTORIA: Mata al mercader en Ciudadela Ensombrecida, Páramos de Residuos, Islas Celestiales y Subterráneo<LINE>EXTRA 1: Mata a 150 carroñeros normales<LINE>EXTRA 2: Mata a 20 carroñeros de élite
+The world is full of vermin. A tragedy shall occur in the stock market. Fight the law.<LINE><LINE>- Play as Railgunner<LINE>-Max charges set to 10<LINE>-Scavenger reputation is locked at -1<LINE><LINE>WIN CONDITION: Kill the merchant in Shaded Citadel, Garbage Wastes, Sky Islands, and Subterranean<LINE>BONUS 1: Kill 150 Normal Scavengers<LINE>BONUS 2: Kill 20 Elite Scavengers|El mundo está lleno de sabandijas. Una tragedia ocurrirá en el mercado de valores. Lucha contra la ley.<LINE><LINE>-Juega con el Artillero<LINE>-Cargas máximas establecidas al 10<LINE>-Reputación con los carroñeros bloqueada en -1<LINE><LINE>CONDICIÓN DE VICTORIA: Mata al mercader en Ciudadela Ensombrecida, Páramos de Residuos, Islas Celestiales y Subterráneo<LINE>EXTRA 1: Mata a 150 carroñeros normales<LINE>EXTRA 2: Mata a 20 carroñeros de élite
 ... what now?|... ¿ahora qué?
 OUT!|¡FUERA!
 Fucking.|Mierda.
@@ -190,15 +190,15 @@ I would not mind some company, however I urge you to move along. I do not want y
 flippounce_tutorial|Mantén pulsada una dirección diagonal contra la pared y luego pulsa saltar para hacer una ¡súper voltereta de pared!
 Change Escort's Build, which affects how they play significantly! You can also set these values in the Remix Settings!|¡Cambia el estilo del Escolta, los cuales afectan significativamente su forma de jugar! ¡Puedes configurar estos valores en los ajustes de Remix!
 Easier Mode: While midair and moving, press Jump + Grab to do a dropkick!|Modo fácil: ¡Mientras te mueves en el aire, pulsa Saltar + Agarrar para hacer una patada voladora!
-At the cost of a karma flower, the slugpup respawns!|¡A costa de una flor de karma, la cría reaparece!
-Bringing a karma flower into the shelter while already reinforced will consume the karma flower instead!|¡Traer una flor de karma al refugio mientras ya estás reforzado hará que esa sea consumida en su lugar!
 Garbage Wastes Merchant Downed!|¡Mercader de Páramos de Residuos derrotado!
-{sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft}/4 to go!|¡Faltan {sgs.saveState.miscWorldSaveData.Esave().ESC03_ObjLeft}/4!
+/4 to go!|/4 restantes.
 Shaded Citadel Merchant Downed!|¡Mercader de Ciudadela Ensombrecida derrotado!
 Sky Islands Merchant Downed!|¡Mercader de Islas Celestiales derrotado!
 Subterranian Merchant Downed!|¡Mercader de Subterráneo derrotado!
 20 Elite Scavengers Felled!|¡20 carroñeros de élite abatidos!
-Wow! You did it!|¡Guau! ¡Lo hiciste!
+Wow! You did it!|¡Guau! ¡Lo lograste!
 150 Scavengers Felled!|¡150 carroñeros abatidos!
 Yippee!!!|¡¡¡Yupi!!!
+At the cost of a karma flower, the slugpup respawns!|¡A costa de una flor de karma, la cría reaparece!
+Bringing a karma flower into the shelter while already reinforced will consume the karma flower instead!|¡Traer una flor de karma al refugio mientras ya estás reforzado hará que la cría la consuma en lugar de ti!
 gilded_tut_guardian|¡El <GILDED> solo tiene que matar al guardián una vez para pasar!
